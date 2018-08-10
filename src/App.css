@@ -1,0 +1,31 @@
+@import '~antd/dist/antd.css';
+.app {
+  width: 500px;
+  margin: 100px auto;
+  padding: 10px;
+}
+.app .title {
+  margin-top: 20px;
+}
+.app .view {
+  margin-top: 50px;
+}
+.app .view .ul {
+  margin: 0;
+  padding: 0;
+}
+.app .view .li {
+  display: flex;
+  list-style: none;
+  border-bottom: 1px solid #eaeaea;
+  padding: 10px 0;
+  line-height: 40px;
+  align-items: center;
+}
+.app .view .li .text {
+  flex: 1;
+}
+.app .view .li .btn {
+  width: 100px;
+  margin-left: 20px;
+}
